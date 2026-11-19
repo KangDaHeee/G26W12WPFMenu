@@ -32,6 +32,7 @@
                           Command="{Binding SetColorCommand}"
                           CommandParameter="White"
                           IsChecked="{Binding IsWhiteSelected, Mode=OneWay}"/>
+               
             </MenuItem> 
         </Menu>
         <Border Background="{Binding BackgroundBrush}"/>
