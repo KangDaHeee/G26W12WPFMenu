@@ -9,7 +9,17 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Images\gyodong1.jpg" />
+    <None Remove="Images\gyodong2.png" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="CommunityToolkit.Mvvm" Version="8.4.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Images\gyodong1.jpg" />
+    <Resource Include="Images\gyodong2.png" />
   </ItemGroup>
 
 </Project>
